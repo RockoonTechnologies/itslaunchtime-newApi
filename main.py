@@ -26,7 +26,7 @@ def vehicles():
     return jsonify(vehicle.__dict__)
 
 @app.route("/v1/data")
-def vehicles():
+def data():
     return jsonify({
         "status": event.status,
         "event": event.__dict__,

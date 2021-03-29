@@ -18,5 +18,5 @@ class Vehicle:
 
 class Starship(Vehicle):
     def __init__(self, name="", sn=0, stages=0, fp=False):
-        Vehicle.__init__(name=name, stages=stages, fp=fp)
+        Vehicle.__init__(self, name=name, stages=stages, fp=fp)
         self.sn = sn
